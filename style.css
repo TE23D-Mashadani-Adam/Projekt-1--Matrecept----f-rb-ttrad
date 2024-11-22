@@ -140,3 +140,48 @@ nav {
     font-weight: bold;
     font-style: italic;
 }
+
+.sista_avdelning {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 40px;
+}
+
+.länkar {
+    display: flex;
+    flex-direction: column;
+    justify-self: left;
+    border: 2px #FFEAA7 solid;
+    border-radius: 20px;
+    align-items: center;
+    width: 250px;
+    background-color: #ECA427;
+    padding: 20px;
+    color: white;
+    justify-content: center;
+    margin-top: 20px;
+    height: 50%;
+}
+
+.instruktioner {
+    display: flex;
+    flex-direction: column;
+    justify-self: right;
+    border: 2px #FFEAA7 solid;
+    border-radius: 20px;
+    width: 500px;
+    background-color: #ECA427;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.centrerad_rubrik {
+    text-align: center;
+    font-weight: bold;
+}
+
+.italic_bold_rubrik {
+    font-weight: bold;
+    font-style: italic;
+}
