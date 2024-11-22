@@ -59,3 +59,84 @@ nav {
     color: white;
     margin-top: 100px;
 }
+
+.avdelning_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box_div {
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px #FFEAA7 solid;
+    border-radius: 20px;
+    align-items: center;
+    width: 250px;
+    background-color: #ECA427;
+    padding: 20px;
+    color: white;
+    justify-content: center;
+}
+
+.ingredienser_rubrik {
+    font-weight: bold;
+}
+
+.kyckling_bild {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px #FFEAA7 solid;
+    width: 100%;
+    align-self: center;
+    border-radius: 20px;
+}
+
+.sista_avdelning {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 40px;
+}
+
+.länkar {
+    display: flex;
+    flex-direction: column;
+    justify-self: left;
+    border: 2px #FFEAA7 solid;
+    border-radius: 20px;
+    align-items: center;
+    width: 250px;
+    background-color: #ECA427;
+    padding: 20px;
+    color: white;
+    justify-content: center;
+    margin-top: 20px;
+    height: 50%;
+}
+
+.instruktioner {
+    display: flex;
+    flex-direction: column;
+    justify-self: right;
+    border: 2px #FFEAA7 solid;
+    border-radius: 20px;
+    width: 500px;
+    background-color: #ECA427;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.centrerad_rubrik {
+    text-align: center;
+    font-weight: bold;
+}
+
+.italic_bold_rubrik {
+    font-weight: bold;
+    font-style: italic;
+}
