@@ -1,0 +1,41 @@
+body {
+    background-color: #EC8A1F;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FF921C;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav_ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    list-style: none;
+    position: relative;
+}
+
+.a_nav {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-style: inherit;
+    padding: 10px;
+}
+
+.a_nav:hover {
+    background-color: #FFEAA7;
+    border-radius: 10px;
+}
