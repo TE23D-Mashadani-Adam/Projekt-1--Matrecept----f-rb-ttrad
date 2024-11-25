@@ -40,7 +40,7 @@ nav {
     border-radius: 10px;
 }
 
-.avdelning_1 {
+.top_avdelning {
     display: flex;
     flex-direction: column;
     background-image: url(./img/MaträttDarkDesign.png);
@@ -60,7 +60,7 @@ nav {
     margin-top: 100px;
 }
 
-.avdelning_2 {
+.mitten_avdelning {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
@@ -96,7 +96,7 @@ nav {
     border-radius: 20px;
 }
 
-.sista_avdelning {
+.botten_avdelning {
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin: 40px;
@@ -109,13 +109,12 @@ nav {
     border: 2px #FFEAA7 solid;
     border-radius: 20px;
     align-items: center;
-    width: 250px;
+    width: 350px;
     background-color: #ECA427;
     padding: 20px;
     color: white;
-    justify-content: center;
     margin-top: 20px;
-    height: 50%;
+    height: 30%;
 }
 
 .instruktioner {
@@ -141,47 +140,7 @@ nav {
     font-style: italic;
 }
 
-.sista_avdelning {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    margin: 40px;
-}
-
-.länkar {
-    display: flex;
-    flex-direction: column;
-    justify-self: left;
-    border: 2px #FFEAA7 solid;
-    border-radius: 20px;
-    align-items: center;
-    width: 250px;
-    background-color: #ECA427;
-    padding: 20px;
+.Länk {
+    margin-top: 10px;
     color: white;
-    justify-content: center;
-    margin-top: 20px;
-    height: 50%;
-}
-
-.instruktioner {
-    display: flex;
-    flex-direction: column;
-    justify-self: right;
-    border: 2px #FFEAA7 solid;
-    border-radius: 20px;
-    width: 500px;
-    background-color: #ECA427;
-    padding: 20px;
-    color: white;
-    margin-top: 20px;
-}
-
-.centrerad_rubrik {
-    text-align: center;
-    font-weight: bold;
-}
-
-.italic_bold_rubrik {
-    font-weight: bold;
-    font-style: italic;
 }
