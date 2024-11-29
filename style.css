@@ -88,12 +88,14 @@ nav {
 
 .kyckling_bild {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
     border: 2px #FFEAA7 solid;
     width: 100%;
     align-self: center;
+    justify-self: center;
     border-radius: 20px;
+    width: 90%;
+    height: 80%;
+    min-width: 200px;
 }
 
 .botten_avdelning {
