@@ -146,3 +146,49 @@ nav {
     margin-top: 10px;
     color: white;
 }
+
+@media screen and (min-width: 100px) and (max-width: 1023px)
+{
+    .mål_div{
+        padding: 10px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-content: left;
+        height: fit-content;
+        padding: 5px;
+    }
+    .nav_ul{
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .botten_avdelning{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .mitten_avdelning{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    .instruktioner{
+        width: 300px;
+        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .länkar{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
