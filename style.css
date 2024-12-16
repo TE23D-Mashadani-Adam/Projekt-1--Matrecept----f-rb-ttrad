@@ -202,17 +202,36 @@ nav {
     nav{
         display: flex;
         flex-direction: column;
-        align-items: left;
+        align-items: center;
+    }
+
+    h1{
+        font-size: 30px;
     }
  
     .nav_ul{
         display: flex;
         flex-direction: row;
         width: 100%;
-        justify-content: center;
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+    .a_nav{
+        display: flex;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    p{
+        font-size: 25px;
+    }
+    li{
+        font-size: 20px;
     }
     .mål_div{
-        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+        padding-left: 10px;
     }
     .mitten_avdelning{
         display: flex;
@@ -226,6 +245,9 @@ nav {
     }
     .box_div{
         width: 500px;
-        height: 200px;
+        height: 250px;
+    }
+    .Länk{
+        font-size: 20px;
     }
 }
